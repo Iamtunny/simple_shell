@@ -3,35 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <fcntl.h>
-#include <string.h>
-#include <signal.h>
-
-extern char **environ;
-
-/* String Helper Functions */
-
-char *_strdup(char *str);
-int _splitstring(char *str);
-int _strcmp(const char *s1, const char *s2);
-char *_strcat(char *dest, char *src);
-int _strlen(char *s);
-
-/* Tokenize & PATH Helper Functions */
-
-char **tokenize(char *buffer);
-int _splitPATH(char *str);
-int _PATHstrcmp(const char *s1, const char *s2);
-char *_concat(char *tmp, char **av, char *tok);
-
-
-=======
->>>>>>> 706689eb1a1059dfd4ebc051bbca3b6511be8028
 #include <stdbool.h>
 #include <sys/wait.h>
 #include <unistd.h>
@@ -85,7 +56,7 @@ char *path;
 char *full_path;
 char *shell_name;
 unsigned int count_line;
-int error_status;
+										int error_status;
 } config;
 
 /**
