@@ -3,8 +3,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-=======
 
 #include <unistd.h>
 #include <sys/types.h>
@@ -14,16 +12,6 @@
 #include <signal.h>
 
 extern char **environ;
-
-/* PATH Shell Functions */
-
-/* program flow */
-
-int prompt(void);
-char *_read(void);
-char *_fullpathbuffer(char **av, char *PATH, char *copy);
-int checkbuiltins(char **av, char *buffer, int exitstatus);
-int _forkprocess(char **av, char *buffer, char *fullpathbuffer);
 
 /* String Helper Functions */
 
@@ -40,15 +28,7 @@ int _splitPATH(char *str);
 int _PATHstrcmp(const char *s1, const char *s2);
 char *_concat(char *tmp, char **av, char *tok);
 
-/* Other Helper Functions */
 
-char *_getenv(const char *name);
-int _env(void);
-void _puts(char *str);
-int _putchar(char c);
-char *_memset(char *s, char b, unsigned int n);
-
->>>>>>> 97ef7bd04da951d134b6558aa0c814b13956f37b
 #include <stdbool.h>
 #include <sys/wait.h>
 #include <unistd.h>
