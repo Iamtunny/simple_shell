@@ -56,7 +56,7 @@ char *path;
 char *full_path;
 char *shell_name;
 unsigned int count_line;
-										int error_status;
+int error_status;
 } config;
 
 /**
