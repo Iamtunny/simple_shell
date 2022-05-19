@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 
 #include <unistd.h>
 #include <sys/types.h>
@@ -29,6 +30,8 @@ int _PATHstrcmp(const char *s1, const char *s2);
 char *_concat(char *tmp, char **av, char *tok);
 
 
+=======
+>>>>>>> 706689eb1a1059dfd4ebc051bbca3b6511be8028
 #include <stdbool.h>
 #include <sys/wait.h>
 #include <unistd.h>
@@ -82,7 +85,7 @@ char *path;
 char *full_path;
 char *shell_name;
 unsigned int count_line;
-										int error_status;
+int error_status;
 } config;
 
 /**
