@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
+
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -45,7 +45,7 @@ int _env(void);
 void _puts(char *str);
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
-=======
+
 #include <stdbool.h>
 #include <sys/wait.h>
 #include <unistd.h>
@@ -222,6 +222,5 @@ char *get_node_at_index(linked_l *head, unsigned int index);
 /* --- _realloc --- */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 char *_memcpy(char *dest, char *src, unsigned int n);
->>>>>>> 1e63e8a7f7ea03a4e12f0b725325c877eab6728d
 
 #endif /* MAIN_H */

@@ -73,7 +73,7 @@ int _strcmp(const char *s1, const char *s2)
  * j - integer type
  * Return: char type
  */
-char *_strcat(char *dest,char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
